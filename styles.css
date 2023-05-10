@@ -1,0 +1,17 @@
+body {
+    display: flex;
+}
+
+div {
+    border: 1px solid black;
+    padding: 2px;
+
+}
+
+.picture {
+    width: 30%;
+}
+
+.content {
+    width: 70%;
+}
