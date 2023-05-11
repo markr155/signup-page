@@ -1,5 +1,6 @@
 body {
     display: flex;
+    height: 100dvh;
 }
 
 div {
@@ -8,10 +9,37 @@ div {
 
 }
 
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(./Norse-Bold.otf);
+}
+
 .picture {
-    width: 30%;
+    width: 35%;
+    background-image: url("./imgs/background.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display:flex;
+}
+
+#pic-credit {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+img {
+    height:auto;
+    max-width: 100%;
 }
 
 .content {
-    width: 70%;
+    width: 65%;
 }
