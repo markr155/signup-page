@@ -19,6 +19,7 @@ div {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-grow: 0;
 }
 
 
@@ -61,4 +62,9 @@ img {
 
 .content {
     width: 65%;
+}
+
+.blurp-container {
+    width: 480px;
+    flex: none;
 }
