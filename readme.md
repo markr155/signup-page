@@ -8,8 +8,12 @@ Sign up page
 <!-- couldnt fix -->
 
 <!-- set up form -->
-style form - current box shadow
-form validation
+<!-- style form -->
+style create button
+password validation
+error style for password 
+make form pop as per design
+final text styling
 
 
 
